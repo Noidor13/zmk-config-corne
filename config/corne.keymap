@@ -96,13 +96,7 @@
         m14: m14 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&kp LC(C) &kp LA(TAB)>,
-                <&macro_wait_time 500>,
-                <&kp LC(F)>,
-                <&macro_wait_time 500>,
-                <&kp LC(V)>;
-
+            bindings = <&kp LC(C) &kp LA(TAB) &kp LEFT_SHIFT &kp LEFT_SHIFT &kp LEFT_SHIFT &kp RCTRL &kp RCTRL &kp LEFT_SHIFT &kp LC(F) &kp LEFT_SHIFT &kp LEFT_SHIFT &kp LEFT_SHIFT &kp RCTRL &kp RCTRL &kp LEFT_SHIFT &kp LC(V)>;
             label = "M14";
         };
 
@@ -111,6 +105,13 @@
             #binding-cells = <0>;
             bindings = <&kt LEFT_ALT &kp KP_NUMBER_6 &kp KP_NUMBER_2 &kt LEFT_ALT>;
             label = "M15";
+        };
+
+        m8: m8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LEFT_ALT &kp KP_NUMBER_3 &kp KP_NUMBER_5 &kt LEFT_ALT>;
+            label = "M8";
         };
     };
 
