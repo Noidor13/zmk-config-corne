@@ -164,10 +164,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans          &kp UP_ARROW  &trans     &trans    &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp N0            &m7
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT  &trans    &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LA(G)
-&trans  &trans  &trans          &trans        &trans     &trans    &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &m9
-                                &trans        &trans     &trans    &trans     &trans        &trans
+&kp GRAVE  &kp LS(LC(UP))    &kp HOME          &kp UP_ARROW  &kp END            &trans               &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp N0            &m7
+&m11       &kp LS(LC(DOWN))  &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &trans               &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LA(G)
+&trans     &trans            &kp LS(LC(LEFT))  &trans        &kp LS(LC(RIGHT))  &kp LS(LC(RIGHT))    &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &m9
+                                               &trans        &trans             &trans               &trans     &trans        &trans
             >;
         };
 
