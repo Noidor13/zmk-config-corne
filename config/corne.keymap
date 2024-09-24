@@ -156,19 +156,19 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC   &kp LC(TAB)  &kp LC(LBKT)  &kp RET    &kp LC(RBKT)     &kp BSPC     &trans             &mkp LCLK         &trans     &mkp RCLK  &trans  &kp PG_UP
-&m14      &trans       &m9           &kp LALT   &kp TAB          &kp DEL      &trans             &trans            &trans     &trans     &trans  &kp PG_DN
-&kp CAPS  &kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)        &kp LC(B)    &kp LS(LC(CARET))  &kp LS(LC(DLLR))  &kp POUND  &m10       &m15    &trans
+&kp ESC   &kp LC(TAB)  &kp LC(LBKT)  &kp RET    &kp LC(RBKT)     &kp BSPC     &trans             &mkp LCLK         &trans  &mkp RCLK  &trans  &kp PG_UP
+&m14      &trans       &m9           &kp LALT   &kp TAB          &kp DEL      &trans             &trans            &trans  &trans     &trans  &kp PG_DN
+&kp CAPS  &kp LC(Z)    &kp LC(X)     &kp LC(C)  &kp LC(V)        &kp LC(B)    &kp LS(LC(CARET))  &kp LS(LC(DLLR))  &m8     &m10       &m15    &trans
                                      &trans     &kp PRINTSCREEN  &trans       &trans             &trans            &trans
             >;
         };
 
         layer_3 {
             bindings = <
-&kp GRAVE  &kp LS(LC(UP))    &kp HOME          &kp UP_ARROW  &kp END            &trans               &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp N0            &m7
-&m11       &kp LS(LC(DOWN))  &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &trans               &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LA(G)
-&trans     &trans            &kp LS(LC(LEFT))  &trans        &kp LS(LC(RIGHT))  &kp LS(LC(RIGHT))    &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &m9
-                                               &trans        &trans             &trans               &trans     &trans        &trans
+&kp GRAVE  &kp LS(LC(UP))    &kp HOME          &kp UP_ARROW  &kp END            &trans    &kp EQUAL  &kp N7        &kp N8        &kp N9        &kp N0            &m7
+&m11       &kp LS(LC(DOWN))  &kp LEFT_ARROW    &kp DOWN      &kp RIGHT          &trans    &kp PLUS   &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT_BRACKET  &kp LA(G)
+&trans     &trans            &kp LS(LC(LEFT))  &trans        &kp LS(LC(RIGHT))  &m4       &kp MINUS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans            &m9
+                                               &trans        &trans             &trans    &trans     &trans        &trans
             >;
         };
 
